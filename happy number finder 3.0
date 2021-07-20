@@ -1,0 +1,170 @@
+
+void main(happyNumber finder){
+
+    int a = 9997   ;
+    
+    
+    var ones = ( a % 10);
+    
+    var tens = ((a % 100) ~/ 10);
+    
+    var hundreds = ((a % 1000) ~/ 100);
+    
+    var thousands = ((a % 10000) ~/ 1000);
+    
+    print ("$ones, $tens, $hundreds, $thousands");
+    
+    
+    var b = (ones * ones + tens * tens + hundreds * hundreds + 
+            thousands * thousands);
+    print (b);
+
+    var ones1 = (b % 10);
+    
+    var tens1 = ((b % 100) ~/ 10);
+    
+    var hundreds1 = ((b % 1000) ~/ 100);
+    
+    var thousands1 = ((b % 10000) ~/ 1000);
+    
+    print ("$ones1, $tens1, $hundreds1, $thousands1");
+
+    var c = (ones1 * ones1 + tens1 * tens1 + hundreds1 * hundreds1 + 
+            thousands1 * thousands1);
+    print (c);
+
+    
+    var ones2 = (c % 10);
+    
+    var tens2 = ((c % 100) ~/ 10);
+    
+    var hundreds2 = ((c % 1000) ~/ 100);
+    
+    var thousands2 = ((c % 10000) ~/ 1000);
+    
+    print ("$ones2, $tens2, $hundreds2, $thousands2");
+
+
+    var d = (ones2 * ones2 + tens2 * tens2 + hundreds2 * hundreds2 + 
+            thousands2 * thousands2);
+    print (d);
+    
+    
+    var ones3 = (d % 10);
+    
+    var tens3 = ((d % 100) ~/ 10);
+    
+    var hundreds3 = ((d % 1000) ~/ 100);
+    
+    var thousands3 = ((d % 10000) ~/ 1000);
+    
+    print ("$ones3, $tens3, $hundreds3, $thousands3");
+
+
+    var e = (ones3 * ones3 + tens3 * tens3 + hundreds3 * hundreds3 + 
+            thousands3 * thousands3);
+    print (e);
+    
+    
+    var ones4 = (e % 10);
+    
+    var tens4 = ((e % 100) ~/ 10);
+    
+    var hundreds4 = ((e % 1000) ~/ 100);
+    
+    var thousands4 = ((e % 10000) ~/ 1000);
+    
+    print ("$ones4, $tens4, $hundreds4, $thousands4");
+
+
+    var f = (ones4 * ones4 + tens4 * tens4 + hundreds4 * hundreds4 + 
+            thousands4 * thousands4);
+    print (f);
+    
+    
+    var ones5 = (f % 10);
+    
+    var tens5 = ((f % 100) ~/ 10);
+    
+    var hundreds5 = ((f % 1000) ~/ 100);
+    
+    var thousands5 = ((f % 10000) ~/ 1000);
+    
+    print ("$ones5, $tens5, $hundreds5, $thousands5");
+
+
+    var g = (ones5 * ones5 + tens5 * tens5 + hundreds5 * hundreds5 + 
+            thousands5 * thousands5);
+    print (g);
+    
+  
+ 
+    
+    var ones6 = (g % 10);
+    
+    var tens6 = ((g % 100) ~/ 10);
+    
+    var hundreds6 = ((g % 1000) ~/ 100);
+    
+    var thousands6 = ((g % 10000) ~/ 1000);
+    
+    print ("$ones6, $tens6, $hundreds6, $thousands6");
+
+    var h = (ones6 * ones6 + tens6 * tens6 + hundreds6 * hundreds6 + 
+            thousands6 * thousands6);
+    print (g);
+    
+   
+    var ones7 = (h % 10);
+    
+    var tens7 = ((h % 100) ~/ 10);
+    
+    var hundreds7 = ((h % 1000) ~/ 100);
+    
+    var thousands7 = ((h % 10000) ~/ 1000);
+    
+    print ("$ones7, $tens7, $hundreds7, $thousands7");
+
+
+    var i = (ones7 * ones7 + tens7 * tens7 + hundreds7 * hundreds7 + 
+            thousands7 * thousands7);
+    print (i);
+   
+   
+    
+    var ones8 = (i % 10);
+    
+    var tens8 = ((i % 100) ~/ 10);
+    
+    var hundreds8 = ((i % 1000) ~/ 100);
+    
+    var thousands8 = ((i % 10000) ~/ 1000);
+    
+    print ("$ones8, $tens8, $hundreds8, $thousands8");
+
+
+    var j = (ones8 * ones8 + tens8 * tens8 + hundreds8 * hundreds8 + 
+            thousands8 * thousands8);
+    print (j);
+   
+   
+    var ones9 = (j % 10);
+    
+    var tens9 = ((j % 100) ~/ 10);
+    
+    var hundreds9 = ((j % 1000) ~/ 100);
+    
+    var thousands9 = ((j % 10000) ~/ 1000);
+    
+    print ("$ones9, $tens9, $hundreds9, $thousands8");
+
+
+    var k = (ones9 * ones9 + tens9 * tens9 + hundreds9 * hundreds9 + 
+            thousands9 * thousands9);
+    print (k);
+  
+  
+  
+   if (k == 1) {print ("$a is a happy number");}
+   
+            else {print ("$a is  an unhappy number");}
